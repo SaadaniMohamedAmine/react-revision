@@ -1,13 +1,13 @@
-import React from "react";
-import Navbar from "../../components/Navbar";
-import Features from "./sections/Features";
-import Hero from "./sections/Hero";
-import About from "./sections/About";
-import Testimonials from "./sections/Testimonials";
-import Footer from "../../components/Footer";
-import "./style.css";
+import React from 'react';
+import Navbar from '../../components/Navbar';
+import Features from './sections/Features';
+import Hero from './sections/Hero';
+import About from './sections/About';
+import Testimonials from './sections/Testimonials';
+import Footer from '../../components/Footer';
+import './style.css';
 
-const HomePage = () => {
+function HomePage() {
   return (
     <>
       <Navbar />
@@ -18,6 +18,6 @@ const HomePage = () => {
       <Footer />
     </>
   );
-};
+}
 
 export default HomePage;

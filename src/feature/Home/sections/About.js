@@ -1,17 +1,16 @@
-import React from "react";
+import React from 'react';
 
-const About = () => {
+function About() {
   return (
-    <section  className="bg-stone-100 px-20 py-10">
+    <section className="bg-stone-100 px-20 py-10">
       <div className="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
         <div className="flex flex-col space-y-12 md:w-1/2" data-aos="fade-right">
           <h2 className="max-w-md text-4xl font-bold text-center md:text-left">
             What's different about Manage?
           </h2>
           <p className="max-w-sm text-center text-darkGrayishBlue md:text-left">
-            Manage provides all the functionality your team needs, without the
-            complexity. Our software is tailor-made for modern digital product
-            teams.
+            Manage provides all the functionality your team needs, without the complexity. Our
+            software is tailor-made for modern digital product teams.
           </p>
         </div>
 
@@ -33,10 +32,9 @@ const About = () => {
                 Track company-wide progress
               </h3>
               <p className="text-darkGrayishBlue">
-                See how your day-to-day tasks fit into the wider vision. Go from
-                tracking progress at the milestone level all the way done to the
-                smallest of details. Never lose sight of the bigger picture
-                again.
+                See how your day-to-day tasks fit into the wider vision. Go from tracking progress
+                at the milestone level all the way done to the smallest of details. Never lose sight
+                of the bigger picture again.
               </p>
             </div>
           </div>
@@ -44,23 +42,17 @@ const About = () => {
           <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
             <div className="rounded-l-full bg-orange-100 md:bg-transparent">
               <div className="flex items-center space-x-2">
-                <div className="px-4 py-2 text-white rounded-full md:py-1 bg-orange-500">
-                  02
-                </div>
-                <h3 className="text-base font-bold md:mb-4 md:hidden">
-                  Advanced built-in reports
-                </h3>
+                <div className="px-4 py-2 text-white rounded-full md:py-1 bg-orange-500">02</div>
+                <h3 className="text-base font-bold md:mb-4 md:hidden">Advanced built-in reports</h3>
               </div>
             </div>
 
             <div>
-              <h3 className="hidden mb-4 text-lg font-bold md:block">
-                Advanced built-in reports
-              </h3>
+              <h3 className="hidden mb-4 text-lg font-bold md:block">Advanced built-in reports</h3>
               <p className="text-darkGrayishBlue">
-                Set internal delivery estimates and track progress toward
-                company goals. Our customisable dashboard helps you build out
-                the reports you need to keep key stakeholders informed.
+                Set internal delivery estimates and track progress toward company goals. Our
+                customisable dashboard helps you build out the reports you need to keep key
+                stakeholders informed.
               </p>
             </div>
           </div>
@@ -68,9 +60,7 @@ const About = () => {
           <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
             <div className="rounded-l-full bg-orange-100 md:bg-transparent">
               <div className="flex items-center space-x-2">
-                <div className="px-4 py-2 text-white rounded-full md:py-1 bg-orange-500">
-                  03
-                </div>
+                <div className="px-4 py-2 text-white rounded-full md:py-1 bg-orange-500">03</div>
                 <h3 className="text-base font-bold md:mb-4 md:hidden">
                   Everything you need in one place
                 </h3>
@@ -82,9 +72,8 @@ const About = () => {
                 Everything you need in one place
               </h3>
               <p className="text-darkGrayishBlue">
-                Stop jumping from one service to another to communicate, store
-                files, track tasks and share documents. Manage offers an
-                all-in-one team productivity solution.
+                Stop jumping from one service to another to communicate, store files, track tasks
+                and share documents. Manage offers an all-in-one team productivity solution.
               </p>
             </div>
           </div>
@@ -92,6 +81,6 @@ const About = () => {
       </div>
     </section>
   );
-};
+}
 
 export default About;

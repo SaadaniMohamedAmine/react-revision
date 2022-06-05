@@ -1,8 +1,8 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "../../feature/Home";
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from '../../feature/Home';
 
-const App = () => {
+function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -10,6 +10,6 @@ const App = () => {
       </Routes>
     </BrowserRouter>
   );
-};
+}
 
 export default App;
