@@ -2,8 +2,16 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="bg-stone-100 text-center py-2">
-      <h1>This is my application</h1>
+    <div className="">
+     <div className="px-20 py-4 bg-primary flex justify-between items-center text-white fixed w-full top-0 z-50">
+       <h1 className="font-bold text-xl">Web Master</h1>
+       <ul className="flex justify-between text-md font-semibold">
+         <li><a href="">Home</a></li>
+         <li className="px-3"><a href="">About</a></li>
+         <li className="px-3"><a href="">Info</a></li>
+         <li><a hrfe="">Login</a></li>
+       </ul>
+     </div>
     </div>
   );
 };
