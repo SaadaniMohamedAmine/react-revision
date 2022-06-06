@@ -6,5 +6,13 @@ export default {
 };
 
 export function Primary() {
+  return <Button />;
+}
+
+export function Secondary() {
+  return <Button />
+}
+
+export function Tertiary() {
   return <Button />
 }
